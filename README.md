@@ -182,11 +182,6 @@ host.tick(external_events=[time.accelerate, turn.tick])
 | `content_addressed_assets.py` / `assets.py` | 内容寻址资产库（哈希去重 + 溯源 + 版本钉死） |
 | `asset_prefetch.py` | 叙事前瞻驱动的资产预取 |
 | `admission.py` | 带宽准入信物（全局唯一重型消费者信物） |
-| `local_media.py` / `voice_bank.py` | 本地媒体 / 音色身份库 |
-
-**方块人视觉（`chardoll*` + `rehearsal_compiler` + `animation_library` + `web/` + `fork/`）**
-
-11 骨方块人角色 · 表情纹理 · 骨架自适应 · 排演编译器（乐谱 → 动画时间线） · HD-2D 舞台（光照 + 景深） · 像素画 fork。
 
 **服务与配置**：`server.py`（FastAPI）· `runtime.py` · `settings.py` · `models.py`
 
